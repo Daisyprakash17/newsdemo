@@ -22,7 +22,7 @@ export class News extends Component {
      articles=[]
     async componentDidMount()
     {
-        console.log("l;dkjfl;adkjf;lakjfd");
+        console.log("There is the change we have created ");
         await this.updatenews();
         console.log("totota res is ",this.state.total);
     }
