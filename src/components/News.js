@@ -89,9 +89,9 @@ export class News extends Component {
         <h1 className='text-center'>Latest Top headLines</h1>   
 
         <InfiniteScroll
-          dataLength={this.state.articles.length}
+          dataLength={this.state.articles && this.state.articles.length}
           next={this.fetchMoreData}
-          hasMore={this.state.articles.length!==this.state.total}
+          hasMore={this.state.articles && this.state.articles.length!==this.state.total}
           loader={<Spinner/>}
         >
             
