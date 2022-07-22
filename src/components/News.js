@@ -48,7 +48,7 @@ export class News extends Component {
 
         let data=await fetch(url);
         let parseData=await data.json();  
-        this.setState(
+       await this.setState(
             { 
                 total:parseData.totalResults,
                 articles:parseData.articles,
