@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 import InfiniteScroll from "react-infinite-scroll-component";
 
 
-
+// so this is the newwmonkey and this is really ccool 
 export class News extends Component {
 
         static defaultProps={
